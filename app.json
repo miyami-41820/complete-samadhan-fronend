@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "complete-samaadhan",
-    "slug": "complete-samaadhan",
+    "name": "Complete Samaadhan",
+    "slug": "completeSamaadhan",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/logo_fav.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
@@ -17,9 +17,11 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/logo_fav.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.completesamaadhan.completesamaadhan",
+      "versionCode": 1
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "8191fb1b-623e-4c05-b22d-7909c7070841"
+      }
     }
   }
 }
