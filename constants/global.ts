@@ -1,0 +1,1 @@
+export const SOMETHING_WENT_WRONG = "something went wrong, please try again"
